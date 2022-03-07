@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>El Gato Pastelero</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <section id="inicio">
+            <img src="img/logo.png" width="200px">
+            <a href="index.html">INICIO</a>
+            <a href="pedido.html">HAZ TU PEDIDO</a>
+            <a href="preciosInventario.html">PRECIOS Y PEDIDOS</a>
+        </section>
+        <h1></h1>
+    </header>
+    <div id="bienvenida">
+        <h1>Haz tu pedido</h1>
+        <img src="img/lestbake.gif">
+        <form class="form">
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombre"><br><br>
+            <label for="telefono">Teléfono: </label>
+            <input type="tel" id="telefono" name="telefono" maxlength="10"><br><br>
+            <label for="email">E-Mail: </label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="domicilio>">Dirección: </label>
+            <textarea id="domicilio"></textarea><br><br>
+
+            <label for="sabor">Elige el sabor de tu pastel</label><br>
+            <input list="sabor">
+            <datalist id="sabor">
+                <option value="Pastel de Frutas">
+                <option value="Pastel de Limón">
+                <option value="Pastel de Plátano">
+                <option value="Pastel de Zanahoria">
+                <option value="Pastel Especial de Pingüino">
+            </datalist><br><br>
+            <label for="otrosabor">¿Con qué otro sabor deseas mezclar?</label>
+            <select id="otrosabor" name="otrosabor">
+                <option value="ninguno">Con Ninguno</option>
+                <option value="frutas">Con Pastel de Frutas</option>
+                <option value="limon">Con Pastel de Limón</option>
+                <option value="platano">Con Pastel de Plátano</option>
+                <option value="zanahoria">Con Pastel de zanahoria</option>
+            </select><br><br>
+
+            <label>Elige tus decoradores</label><br><br>
+            <input type="checkbox" id="decorador1" name="decorador1" value="chispas">
+            <label for="decorador1">Chispas de Chocolate</label><br>
+            <input type="checkbox" id="decorador2" name="decorador2" value="nuez">
+            <label for="decorador2">Nueces</label><br>
+            <input type="checkbox" id="decorador3" name="decorador3" value="fondant">
+            <label for="decorador3">Figura de fondant</label><br>
+            <input type="checkbox" id="decorador4" name="decorador4" value="hojuelas">
+            <label for="decorador4">Hojuelas de chocolate</label><br><br>
+            
+            <button type="reset">Resetear</button>
+            <button type="submit">Enviar</button>
+            <br><BR>
+        </form>
+    </div>
+
+    <footer>
+        <section class="direccion">
+            <p>Calle Gato No. 21, Col. Pasteles, 09200</p>
+            <a href="#inicio">Ve al inicio</a>
+        </section>
+        <section class="contacto">
+            <p>Teléfono: 55-11-22-33-44</p>
+            <p>Horario: Lun a Sáb de 10 am a 22 pm</p>
+        </section>
+    </footer>
+</body>
+</html>

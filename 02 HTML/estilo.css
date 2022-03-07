@@ -1,0 +1,92 @@
+html {
+    font-family: 'League Spartan', sans-serif;
+}
+
+header {
+    background-color: #170312;
+    color: white;
+    height: 200px;
+    padding: 20px;
+}
+header section {
+    text-align: center;
+}
+
+header section a {
+    font-size: 20px;
+    padding: 100px;
+    color: white;
+    text-decoration: none;
+}
+
+header section a:hover {
+    color:aquamarine;
+}
+
+body {
+    background-color: #FDF3E4;
+}
+
+body h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+body p {
+    font-size: 25px;
+}
+
+#bienvenida {
+    width: 800px;
+    margin: 0 auto;
+}
+
+#bienvenida img {
+    display: block;
+    margin: 0 auto;
+}
+
+.form {
+    text-align: center;
+    font-size: 25px;
+}
+.pasteles {
+    width: 400px;
+    background-color: bisque;
+    margin: 10px auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 25px;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    font-size: 25px;
+    background-color: #4C5C68;
+    padding: 50px 50px;
+    height: 100px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: bisque;
+}
+
+.direccion {
+    float: left;
+    color: white;
+}
+
+.contacto {
+    float: right;
+    color: white;
+}
