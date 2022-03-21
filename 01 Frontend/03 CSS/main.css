@@ -1,0 +1,302 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+.vaccination {
+    margin-left: 150px;
+    margin-right: 325px;
+    font-size: 32px;
+    color:rgb(0, 80, 155)
+
+}
+
+.opcion {
+    margin-left: 75px;
+    font-size: 25px;
+}
+
+.botonazul {
+    margin-left: 75px;
+    padding: 20px 40px;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(65, 105, 224);
+    color: white;
+    display: flex;
+    box-shadow: 0px 5px 10px rgba(0, 86, 167, 0.5)
+
+}
+
+.bloques {
+    display: grid;
+    grid-template-areas: "A B"
+                         "C C"
+                         "D E"
+                         "F G";
+    grid-template-rows: repeat(4, auto);
+    grid-template-columns: auto 50%;
+    grid-row-gap: 100px;
+    box-sizing: border-box;
+    
+}
+
+.enfermeratexto {
+    width: 65%;
+    padding: 150px;
+    padding-top: 75px;
+    grid-area: A;
+    background-color: white;
+}
+
+.enfermeratexto h1 {
+    font-size: 84px;
+    color:rgb(0, 80, 155)
+}
+
+.enfermeratexto p {
+    margin-top: -50px;
+    margin-bottom: 75px;
+    font-size: 28px;
+}
+
+.enfermeratexto .icono {
+    height: 35px;
+}
+
+.enfermeratexto h2 {
+    display: inline;
+    margin-left: 25px;
+    margin-right: 30px;
+}
+
+.enfermeratexto .alttext {
+    display: inline;
+    margin-top: 100px;
+    font-weight: bold;
+}
+
+.vacation{
+    margin-top: 25px;
+    margin-left: 150px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.3);
+    z-index: 1;
+}
+
+.vacation p {
+    padding: 10px;
+    margin: 25px 50px;
+}
+
+
+.enfermeraimagen {
+    height: 1065px;
+    grid-area: B;
+    background-image: linear-gradient(rgb(0, 102, 255), rgb(0,150,255));    background-image: linear-gradient(rgb(0, 102, 255), rgb(0,150,255));
+
+}
+
+.enfermeraimagen img {
+    width: 945px;
+    transform: scale(1.75);
+    margin-top: 200px;
+}
+
+
+.logos {
+    grid-area: C;
+    margin-left: 150px;
+}
+
+.logos img {
+    margin: 10px 50px;
+}
+
+.logos h1 {
+    font-size: 56px;
+    color:rgb(0, 80, 155)
+}
+
+.logos p {
+    font-size: 27px;
+}
+
+.logos .icono {
+    height: 65px;
+}
+
+.logos .cajas {
+    display: flex;
+}
+
+.logos .caja {
+    margin: 50px 50px;
+    width: 300px;
+    box-shadow: 2px 2px 5px rgba(0, 86, 167, 0.3)
+}
+
+.logos .caja p {
+    font-size: 18px;
+}
+
+.preparacionimagen {
+    grid-area: D;
+    margin-top: 200px;
+}
+
+.preparacionimagen img {
+    height: 900px;
+    padding-left: 0;
+}
+
+.preparaciontexto {
+    grid-area: E;
+
+}
+
+.preparaciontexto h1 {
+    font-size: 56px;
+    color:rgb(0, 80, 155)
+}
+
+.preparaciontexto p {
+    font-size: 28px;
+}
+
+
+.preparaciontexto img {
+    height: 30px;
+    margin-left: 50px;
+    margin-right: 30px;
+}
+
+.preparaciontexto h2 {
+    display: inline;
+}
+
+.preparaciontexto .caja {
+    width: 550px;
+    margin: 35px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 86, 167, 0.3)
+}
+
+.preparaciontexto h1 {
+    display: inline;
+    margin-left: 55px;
+}
+
+.contactotexto {
+    grid-area: F;
+    margin-left: 150px;
+    margin-right: 40px;
+}
+
+.contactotexto h1{
+    font-size: 50px;
+    color:rgb(0, 80, 155);
+}
+
+.contactotexto p {
+    font-size: 28px;
+}
+
+.contactotexto .icono {
+    height: 65px;
+    padding-right: 20px;
+}
+
+.contactotexto h2 {
+    display: inline;
+}
+
+.contactotexto .cajas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contactotexto .caja {
+    width: 300px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.contactotexto .caja p {
+    font-size: 16px;
+    margin-left: 100px;
+}
+
+.contactotexto .caja .botonazulclaro {
+    margin-left: 50px;
+    padding: 20px 20px;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(138, 167, 255);
+    color: white;
+    box-shadow: 0px 5px 10px rgba(0, 86, 167, 0.5)
+}
+
+.contactotexto .caja .botonazul {
+        margin-left: 50px;
+        padding: 20px 60px;
+        font-size: 25px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(65, 105, 224);
+        color: white;
+        box-shadow: 0px 5px 10px rgba(0, 86, 167, 0.5)
+}
+
+.contactoimagen {
+    grid-area: G;
+    margin-top: 200px;
+}
+
+.contactoimagen img {
+    height: 900px;
+}
+
+footer {
+    margin-top: 200px;
+    background-color: rgba(198, 226, 252, 0.5);
+    display: flex;
+}
+
+footer h1 {
+    color:rgb(0, 80, 155)
+}
+
+footer h2 {
+    color:rgb(0, 80, 155)
+}
+
+footer .izquierda {
+    margin: 50px;
+    margin-left: 150px;
+}
+
+footer .derecha {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 300px;
+}
+
+footer .derecha .caja {
+    margin: 50px;
+    padding: 10px;
+}
