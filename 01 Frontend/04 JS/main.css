@@ -1,0 +1,32 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white
+}
+
+body img {
+    display: block;
+    margin: 50px auto;
+}
+
+form {
+    width: 290px;
+    margin: 20px auto;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+}
+
+.pokeContenedor {
+    position: relative;
+    height: fit-content;
+    max-width: 300px;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #eee;
+    border: 1px solid gray;
+}
